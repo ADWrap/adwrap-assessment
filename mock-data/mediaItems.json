@@ -1,0 +1,107 @@
+[
+    {
+      "id": 1,
+      "type": "Static Billboard",
+      "workspace": 1,
+      "format": "Tri-Vision",
+      "pinLocation": "https://location",
+      "location": "Kampala",
+      "numberOfFaces": 3,
+      "customId": "",
+      "mediaSizeWidth": "2",
+      "mediaSizeHeight": "5",
+      "orientation": "Vertical",
+      "closestLandmark": "Billboard Landmark",
+      "sideRoute": null,
+      "availability": "",
+      "createdBy": 1,
+      "staticMediaFaces": [
+        {
+          "id": 1,
+          "mediaItem": 1,
+          "description": "Face before billboard face-F1 is located Ntinda Jinja Kenya",
+          "availability": "vacant",
+          "images": [
+            "https://adwrap-billboard.s3.amazonaws.com/faces/1744679789064-image%20%289%29.png"
+          ],
+          "rent": 3000
+        },
+        {
+          "id": 2,
+          "mediaItem": 1,
+          "description": "Face after billboard face-F1 is located Kyanja Hoima Ntinda",
+          "availability": "vacant",
+          "images": [
+            "https://adwrap-billboard.s3.amazonaws.com/faces/1744679789064-image%20%289%29.png"
+          ],
+          "rent": 2000
+        },
+        {
+          "id": 3,
+          "mediaItem": 1,
+          "description": "Face side billboard face-F3 is located in Nakawa Bypass",
+          "availability": "vacant",
+          "images": [
+            "https://adwrap-billboard.s3.amazonaws.com/faces/1744679789064-image%20%289%29.png"
+          ],
+          "rent": 5000
+        }
+      ],
+      "digitalMediaFaces": [],
+      "routes": []
+    },
+    {
+      "id": 2,
+      "type": "Street Pole",
+      "workspace": 1,
+      "format": "",
+      "pinLocation": "bugolobi",
+      "location": "Jinja",
+      "numberOfFaces": 0,
+      "customId": "",
+      "mediaSizeWidth": "2",
+      "mediaSizeHeight": "4",
+      "orientation": "Vertical",
+      "closestLandmark": "Shell Bugolobi",
+      "numberOfStreetPoles": 2,
+      "sideRoute": [
+        "East Bound",
+        "North Bound",
+        "Median"
+      ],
+      "availability": "",
+      "created_by": 1,
+      "staticMediaFaces": [],
+      "digitalMediaFaces": [],
+      "routes": [
+        {
+          "id": 1,
+          "sideRoute": "East Bound",
+          "description": "",
+          "numberOfStreetPoles": 2,
+          "pricePerStreetPole": 20000,
+          "attachments": [],
+          "mediaItem": 2
+        },
+        {
+          "id": 2,
+          "sideRoute": "North Bound",
+          "description": "",
+          "numberOfStreetPoles": 2,
+          "pricePerStreetPole": 30000,
+          "attachments": [],
+          "mediaItem": 2
+        },
+        {
+          "id": 3,
+          "sideRoute": "Median",
+          "description": "",
+          "numberOfStreetPoles": 2,
+          "pricePerStreetPole": 50000,
+          "attachments": [],
+          "mediaItem": 2
+        }
+      ]
+    }
+  ]
+  
